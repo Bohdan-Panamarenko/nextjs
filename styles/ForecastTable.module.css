@@ -1,0 +1,13 @@
+
+.errorContainer {
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.forecastTable th, .forecastTable td {
+    line-height: 2em;
+    letter-spacing: 0.05em;
+    width: 10em;
+    border: 1px solid black;
+    text-align: left;
+}

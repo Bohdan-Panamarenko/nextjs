@@ -1,0 +1,38 @@
+.partner {
+    width: 435px;
+    display: flex;
+    margin-bottom: 30px; 
+}
+.partner_image {
+    border-radius: 50px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin-right: 60px; 
+}
+.partner_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 0.05em; 
+}
+.partner_heading {
+    font-size: 28px;
+    line-height: 36px; 
+}
+.partner_text {
+    font-size: 18px;
+    line-height: 24px; 
+}
+.partner_link:hover {
+    text-decoration: underline; 
+}
+
+@media screen and (max-width: 576px) {
+    .partner {
+        width: 350px;
+    }
+    .partner_image {
+        margin-right: 40px; 
+    }
+}
