@@ -18,7 +18,7 @@ const [city, setCity] = useState("London");
 const [forecast, setForecast] = useState({ cod: 200 });
 
 function getForecast(city: string) {
-    let key = 'beb25e3146ad9e08f6ef98967c42034f';
+    let key = '';
     let url = 'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&APPID=' + key;
     fetch(url)
         .then(response => response.json())
