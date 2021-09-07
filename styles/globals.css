@@ -13,3 +13,25 @@ a {
   text-decoration: none;
   color: inherit;
   transition: 0.3s ease-out; }
+
+nav#app-nav {
+  display: block;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#app-nav > * {
+  margin-right: 30px;
+}
+
+#app-nav:last-child {
+  margin-right: 0;
+}
+
+#logout-container button {
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
